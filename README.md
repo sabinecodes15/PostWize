@@ -11,7 +11,7 @@
       <img src="https://api.netlify.com/api/v1/badges/30a78a95-8bfd-492b-bf4a-16475ff48371/deploy-status" alt="Netlify Status" />
 </p>
 <p align="center">
-<a href="https://www.post-wize.tech/">View Demo</a>
+<a href="https://post-wize.netlify.app/">View Demo</a>
 </p>
 
 PostWize was created to simplify the job application process by combining all of your professional resources into one! Users may view their pending applications on sites like as Indeed, Glassdoor, and LinkedIn with a few clicks, chat and schedule meetings with recruiters, upload application materials, and monitor forthcoming activities with a customizable calendar.
