@@ -18,7 +18,7 @@ from django.urls import include, path
 from django.contrib.auth import views
 
 urlpatterns = [
-    path('login/', views.LoginView.as_view()),
-    path('dashboard/', include('dashboard.urls')),
+    path('login/', include('PostWizeSite.urls')),
+    path('dashboard/', include('PostWizeSite.urls')),
     path('admin/', admin.site.urls),
 ]
