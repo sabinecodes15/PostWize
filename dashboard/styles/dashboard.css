@@ -1,0 +1,257 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: #3e3e3e;
+    background-color:rgb(249, 249, 249);
+    height:100%;
+  }
+
+  html {
+    visibility: visible;
+    opacity: 1;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color:#199b74;
+    font-size:35px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size:23px;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+.dash span {
+    color:#199b74;
+}
+
+.dash p {
+    font-weight: bold;
+}
+
+hr {
+    opacity:50%;
+}
+
+i {
+    font-size: 20px;
+    transform: translateY(3px);
+    color: rgb(153, 153, 153)
+}
+
+i::after {
+    content:'00';
+    opacity:0;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: px;
+    }
+   
+a {
+    text-decoration: none;
+    color: #3e3e3e;
+}
+
+.nav { 
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: #e6eaf1aa;
+    padding: 20px;
+    height: 900px;
+}
+
+.nav span {
+    display: block;
+    text-align: center;
+    padding: 8px;
+}
+
+.nav a {
+    text-align: left;
+    display: block;
+    padding: 14px;
+    user-select: none;
+}
+
+.options a:hover {
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 10px;
+    color: #199b74;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+
+.options i:hover {
+    color: #199b74;
+    transition-duration: 0.2s;   
+}
+
+.options {
+    padding: 20px;
+}
+
+.user {
+    width: 100px;
+    border-radius: 200px;
+    margin-right: auto;
+    border: 7px solid #ffffff98;
+    margin-left: 30%;
+}
+
+.logo {
+    width: 175px;
+    margin-left: 10%;
+}
+
+.main {
+    grid-area: 1 / 2 / 2 / 3;
+    padding: 30px;
+}
+
+.container,.container-inbox {
+    background-color: #e6eaf1aa;
+    padding: 5px 30px;
+    border-radius: 12px;
+    border: 1px solid #b0bcd200;
+    transition-duration: 0.3s;
+}
+
+.container-inbox {
+    border: 1px solid #b0bcd2;
+}
+
+.container:hover,.container-inbox:hover {
+    border: 1px solid #b0bcd2;
+    cursor: pointer;
+}
+
+.container-2 {
+    background-color: #e6eaf1aa;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.container-inbox {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    max-width: 800px;
+    }
+    
+.inbox-img { 
+    grid-area: 1 / 1 / 2 / 2;
+}
+.inbox-img img {
+    width: 150px;
+    border-radius: 200px;
+    border: 6px solid rgba(176, 188, 210, 0.249);
+}
+.inbox-text { grid-area: 1 / 2 / 2 / 3; }
+
+.inbox-text span {
+    color: grey;
+    font-size: 14px;
+}
+button {
+    padding: 7px 15px 7px 15px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #76c8b0;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #60b89e;
+    cursor: pointer;
+}
+
+
+.notif {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: #e6eaf1aa;
+    padding: 30px;
+    height: 900px;
+}
+
+.notif-parent {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 0.7fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    background-color: #ffffff38;
+    border-radius: 12px;
+    padding: 6px;
+    border: 1px solid #c9d1df;
+}
+
+.notif-parent:hover {
+    background-color: #ffffff5c;
+    border: 1px solid #b0bcd2;
+    cursor: pointer;
+}
+    
+.notif-img { 
+    grid-area: 1 / 1 / 2 / 2;  
+}
+
+.notif-img img{
+    width: 75px;
+    border-radius: 10px; 
+}
+
+.corner {
+    width: 15px;
+    transform: translateY(3px)
+}
+
+.notif-text{ 
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.notif-text p {
+    font-size: 15px;
+    margin-bottom: -3px;
+}
+
+.notif-span {
+    font-size: 14px;
+    color: #a6a6a6;
+}
+
+.notif-span:hover {
+    color:#199b74;
+}
+
+input {
+    padding: 20px 100px 20px 20px;
+    width: 1000px;
+    border: 0;
+    box-shadow: 5px 5px 12px #0000000b;
+    font-size: 14px;
+    color:#199b74;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #199b74;
+}
+
+select {
+    padding:5px 30px 5px 4px;
+    border:1px solid #a5a5a5;
+    border-radius: 6px;
+    font-size: 14px;
+}

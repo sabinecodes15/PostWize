@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>html{visibility: hidden;opacity:0;}</style>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | PostWize</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png"/>
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/scrollbar.css">
+    <link rel="stylesheet" href="styles/transition.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="reveal">
+    
+    <div class="app">
+        
+        <div class="nav">
+            <img class='logo' src="assets/logo.png" alt="PostWize">
+            <img class="user" src="assets/profile.jpg" alt="Your profile" title="Your profile">
+            <span style="font-weight:bold">John Doe</span>
+            <span>johndoe@gmail.com</span>
+           
+            <div class="options">
+                <a href="search.html"><i class='bx bx-search' ></i>Search jobs</a>
+                <a href="index.html"><i class='bx bx-book-content'></i> Dashboard</a>
+                <a href="inbox.html"><i class='bx bxs-inbox' ></i> Inbox</a>
+                <a href="calendar.html"><i class='bx bx-calendar-alt'></i>Calendar</a>
+                <a href="404.html"><i class='bx bx-slider-alt' ></i> Settings</a>
+            </div>
+            
+            <div class="options">
+                <hr>
+                <a href="reviews.html"> <i class='bx bx-help-circle'></i> Reviews</a>
+                <a href="signup/login.html"><i class='bx bx-exit'></i> Sign Out</a>
+            </div>
+            
+        </div>
+
+        <div class="main">
+            <div class="account">
+                <h1>Your Account</h1>
+                <div class="container-2">
+                    <a href="#applications">
+                        <button class="account">
+                            Applications (2)
+                        </button>
+                    </a>
+                                        
+                    <a href="inbox.html"><button class="account">Interviews (2)</button></a>
+                    <a href="meeting.html"><button class="account">Meetings</button></a>
+                    
+                </div>
+            </div>
+
+            <div class="dash">
+
+                <h1 id="applications">Dashboard</h1>
+                <div class="container">
+                    <h2>Uber</h2>
+                    <p>Software Engineer, San Francisco</p>
+                    <span>Status: Application in progress</span>
+                    <p style="font-weight:normal">Applied with: <img class="corner" src="assets/companies/gd.svg" alt=""></p>
+                </div>
+                <br>
+                <div class="container">
+                    <h2>Datadog</h2>
+                    <p>Backend Engineer, Washington</p>
+                    <span>Status: Application in progress</span>
+                    <p style="font-weight:normal">Applied with: <img class="corner" src="assets/companies/in-2.png" alt=""></p>
+                </div>
+
+                <br><span style="color:#a6a6a6; cursor: pointer;">Load more</span>
+                
+            </div>
+            
+        </div>
+
+        <div class="notif">
+            <h1>🔔 Notifications</h1>
+            <a href="inbox.html">
+                <div class="notif-parent">
+                    <div class="notif-img">
+                        <img src="assets/companies/cb.png" alt="">
+                    </div>
+                    <div class="notif-text">
+                        <p>Sarah from Chase Bank has invited you to an interview.</p>
+                        <span class="notif-span">Reply</span>
+                    </div>
+                </div>   
+            </a>
+
+            <br><hr><br>
+            <a href="meeting.html">
+            <div class="notif-parent">
+                <div class="notif-img">
+                    <img src="assets/companies/in.png" alt="">
+                </div>
+                <div class="notif-text">
+                    <p>Your interview for <u>SWE @ LinkedIn</u>  begins in 15 minutes</p>
+                    <span class="notif-span">Join via PostWize</span>
+                </div>
+            </div>     
+            </a>
+
+            
+            <br><hr><br>
+            <a href="inbox.html">
+               <div class="notif-parent">
+                <div class="notif-img">
+                    <img src="assets/companies/hulu.jpg" alt="">
+                </div>
+                <div class="notif-text">
+                    <p>Miguel from Hulu has invited you to an interview.</p>
+                    <span class="notif-span">Reply</span>
+                </div>
+            </div> 
+            </a>
+            
+            <br>
+            <span class="notif-span">No new notifications</span>
+        </div>
+
+    </div>
+
+</body>
+</html>

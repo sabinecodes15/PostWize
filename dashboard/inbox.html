@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>html{visibility: hidden;opacity:0;}</style>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox | PostWize</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png"/>
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/scrollbar.css">
+    <link rel="stylesheet" href="styles/transition.css">
+    <link rel="stylesheet" href="styles/calendar.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="reveal">
+    <div class="parent">
+        <div class="nav">
+            <img class='logo' src="assets/logo.png" alt="PostWize">
+            <img class="user" src="assets/profile.jpg" alt="Your profile" title="Your profile">
+            <span style="font-weight:bold">John Doe</span>
+            <span>johndoe@gmail.com</span>
+           
+            <div class="options">
+                <a href="search.html"><i class='bx bx-search' ></i>Search jobs</a>
+                <a href="index.html"><i class='bx bx-book-content'></i> Dashboard</a>
+                <a href="inbox.html"><i class='bx bxs-inbox' ></i> Inbox</a>
+                <a href="calendar.html"><i class='bx bx-calendar-alt'></i>Calendar</a>
+                <a href="404.html"><i class='bx bx-slider-alt' ></i> Settings</a>
+            </div>
+            
+            <div class="options">
+                <hr>
+                <a href="reviews.html"> <i class='bx bx-help-circle'></i> Reviews</a>
+                <a href="signup/login.html"><i class='bx bx-exit'></i> Sign Out</a>
+            </div>
+            
+        </div>
+        <div class="main">
+            <h1>Inbox</h1>
+            <h2>Last 30 days</h2>
+            <div class="filter">
+                <form action="" style="color:grey">
+                    <label for="filter">Sort by:</label>
+                    <select name="filter" id="filter">
+                      <option value="Latest">Latest</option>
+                      <option value="Oldest">Oldest</option>
+                      <option value="Unread">Unread</option>
+                    </select>
+                  </form>
+            </div>
+            <br>
+
+            <p style="color:rgb(160, 160, 160); cursor:pointer;"><i class='bx bx-plus'></i>New conversation</p>
+            
+            <div class="container-inbox reveal">
+
+                <div class="inbox-img">
+                    <img src="assets/sarah.jpg">
+                </div>
+
+                <div class="inbox-text">
+                    <h3>Sarah @ Chase Bank</h3>
+
+                    <p>Hey John! My team and I reviewed your application, and we believe you'd be a great fit at Hulu! What time are you available for an interview?</p>
+                    <span>Recieved 4 hours ago</span>
+                    <span style="color:#199b74; margin-left: 20px"> Reply</span>
+                </div>                
+            </div>
+
+            <br>
+
+            <div class="container-inbox reveal">
+                <div class="inbox-img">
+                    <img src="assets/miguel.jpg">
+                </div>
+
+                <div class="inbox-text">
+                    <h3>Miguel @ Hulu  <i class='bx bxl-linkedin' style='color:#0b66c3'  ></i></h3>
+
+                    <p>Hi John, thank for your interest in working for Hulu. Your resume looks great and I'd like to invite you to a meeting. Are you available to chat next week?</p>
+                    <span>Recieved 2 days ago</span>
+                    <span style="color:#199b74; margin-left: 20px"> Reply</span>
+                </div>                
+            </div>
+            <br>
+            <span style="color:#b3b3b3;">No more messages</span>
+            
+        </div>
+    </div>
+</body>
+</html>

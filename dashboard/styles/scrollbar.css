@@ -1,0 +1,20 @@
+::selection {
+    background-color: #4ca98d79;
+    color: white;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px; height: 10px; transition-duration: 0.2s;
+  }
+  
+  ::-webkit-scrollbar-track {
+  background: #4ca98d47;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: #199b74;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #1b8263; 
+  }
