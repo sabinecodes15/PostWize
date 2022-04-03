@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Testimonials Section | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background: #77c8b3;
+}
+::selection{
+  background: rgba(23,162,184,0.3);
+}
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+.wrapper .box i.quote{
+  font-size: 20px;
+  color: #d6faf0;
+}
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+}
+.box .info .stars{
+  margin-top: 2px;
+}
+.box .info .stars i{
+  color: #77c8b3;
+}
+.box .content .image{
+  height: 75px;
+  width: 75px;
+  padding: 3px;
+  background: #77c8b3;
+  border-radius: 50%;
+}
+.content .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img{
+  border-color: #fff;
+}
+
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+  <div class="wrapper">
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>
+          PostWize has made it much easier to track my job applications. It is not easy to find a job anywhere nowadays, but with this website is amazing.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Madonna Johnson</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/profile-photos-2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-quote-left quote"></i>
+      <p>I can feel all the hardwork and research gone into this website, I am so glad I found this page. As the job listings are updated frequently, It is a great website!</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">David Miller</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?cs=srgb&dl=pexels-italo-melo-2379004.jpg&fm=jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <i class="fas fa-quote-left  quote"></i>
+      <p>My friend recommended this website to me and to be honest I doubted it was reliable. But now that I landed my first job after struggling for 3 year.</p>
+      <div class="content">
+        <div class="info">
+          <div class="name">Olivia Garcia</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://media.istockphoto.com/photos/want-to-glow-ask-nature-she-knows-picture-id1302917943?b=1&k=20&m=1302917943&s=170667a&w=0&h=2ro0u43ZQFS6ZAXFgxdL6Ubw2PROSldcFpiGn6oPe1w=" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
