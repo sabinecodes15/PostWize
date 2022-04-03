@@ -1,0 +1,17 @@
+iframe {
+    border: 1px solid #b0bcd2;
+    border-radius: 15px;
+    padding: 35px;
+    background-color: #fff;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.4fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    }
+    
+    .nav { grid-area: 1 / 1 / 2 / 2; }
+    .calendar { grid-area: 1 / 2 / 2 / 3; }
