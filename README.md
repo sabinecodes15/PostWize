@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="100" height="auto" src="favicon.png" alt="Logo"/>
+</p>
+
 <h1 align="center">
   PostWize
 </h1>
